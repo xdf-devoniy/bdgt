@@ -18,9 +18,11 @@ MoneyFlow is a personal finance manager built with PHP, MySQL, and Bootstrap. It
    composer install
    ```
 
-4. Update the database schema using the migration scripts in `scripts/` (coming soon).
+4. Update the database schema using the migration scripts in `scripts/` (coming soon) or import your existing MoneyFlow tables.
 
-5. Visit the application in your browser. The dashboard ships with demo data so you can explore the interface immediately.
+5. Make sure `.env` points `DEMO_USER_ID` to a valid `users.id` record that already has wallets, categories, transactions, and budgets associated with it.
+
+6. Visit the application in your browser to see the live cashflow metrics rendered on the dashboard.
 
 ## Project Structure
 
